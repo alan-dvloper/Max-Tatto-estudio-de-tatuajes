@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contendor-biografia {
+    background: rgb(241, 238, 238);
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.datos-rapidos {
+    padding: 30px;
+    position: relative;
+}
+.datos-rapidos img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px -4px 0px rgba(0,0,0,0.6);
+}
+.info {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 21px;
+}
+.info li {
+    list-style: none;
+    padding: 5px;
+    display: block;
+}
+.info a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 17px;
+}
+.info li a i {
+    color: rgb(228, 214, 15);
+}
+.biografia-texto {
+    padding: 20px;
+    position: relative;
+    display: block;
+}
+.biografia-texto h2 {
+    font-family: 'Roboto Slab';
+    margin-bottom: 20px;
+}
+.biografia-texto p {
+    font-family: 'Roboto';
+    text-align: justify;
+}
+.contenedor-contacto {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contenedor-contacto a {
+    margin-right: 10px;
+    color: #000;
+    padding: 15px;
+    background: #fff;
+    border-radius: 1000px;
+}
+.contenedor-contacto i {
+    font-size: 23px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+/*SECCION DE BIOGRAFIA*/
+/*SECCION TERMINADA*/
+
+.contenedor-trabajos {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+.trabajos {
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    border-radius: 10px;
+}
+.trabajos img {
+    width: 80%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,0.6);
+    transition: 0.3s linear;
+    padding: 10px;
+    cursor: pointer;
+}
+.trabajos img:hover {
+    transform: scale(1.06);
+}
+/*SECCION DE TRABAJOS*/
+/*SECCION TERMINADA*/
+
+.contendor-form {
+    margin: 30px auto;
+    position: relative;
+    display: block;
+}
+.formulario {
+    background: rgb(32, 32, 32);
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.formulario h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.formulario input {
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.formulario input:focus {
+    outline: none;
+}
+.contenedor-mensaje-area {
+    display: block;
+    margin: 20px auto;
+}
+.contenedor-mensaje-area textarea {
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    font-family: 'Roboto';
+    border-radius: 5px;
+    height: 120px;
+}
+.contenedor-mensaje-area textarea:focus {
+    outline: none;
+}
+.boton-mensaje-envio {
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+}
+.boton-mensaje-envio button {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    border: none;
+    margin: auto;
+    font-family: 'Roboto';
+}
+/*SECCION DEL FORMULARIO*/
+/*SECCION TERMINADA*/

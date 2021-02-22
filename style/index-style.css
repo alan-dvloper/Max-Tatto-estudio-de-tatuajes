@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-nav {
+    font-family: 'Roboto Slab'; 
+    font-weight: bold;
+    font-size: 40px;
+}
+header a {
+    font-family: 'Roboto';
+    font-size: 17px;
+    color: #000;
+}
+.carrusel-principal img {
+    width: 100%;
+    height: 600px;
+}
+@media screen and (max-width:629px) {
+    .carrusel-principal img {
+        height: 100%
+    }
+}
+/*SECCION DEL HEADER*/
+/*SECCION TERMINADA*/
+
+.seccion-slogan {
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 50px auto;
+}
+.seccion-slogan h2 {
+    font-weight: bold;
+    font-size: 35px;
+    display: block;
+    margin-bottom: 20px;
+}
+.seccion-slogan p {
+    font-family: 'Truculenta';
+    font-size: 25px;
+}
+@media screen and (max-width: 450px) {
+    .seccion-slogan {
+        width: 100%;
+    }
+    .seccion-slogan h2 {
+        font-size: 30px;
+    }
+    .seccion-slogan p {
+        font-size: 20px;
+    }
+}
+/*SECCION DEL SLOGAN*/
+/*SECCION TERMINADA*/
+
+.contenedor-titulo-artistas {
+    margin-top: 60px;
+    text-align: center;
+    display: block;
+}
+.title-art {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 40px;
+}
+.info-artistas {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+    background: #E6E2E1;
+    display: block;
+    width: 87%;
+    margin: 10px auto;
+    transition: 0.5s ease;
+}
+.info-artistas:hover {
+    transform: scale(1.04);
+}
+.info-artistas h3 {
+    font-family: 'Roboto Slab';
+    margin-bottom: 20px;
+}
+.info-artistas p {
+    text-align: center;
+    font-family: 'Roboto';
+}
+.contenedor-perfil {
+    background: #10CD24;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 90%;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.3s linear;
+    display: none;
+}
+.info-artistas:hover .contenedor-perfil {
+    display: block;
+}
+.contenedor-perfil a {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-decoration: none;
+}
+.contenedor-perfil:hover {
+    width: 100%;
+}
+.img-perfil img {
+    width: 20%;
+    display: block;
+    margin: auto;
+    border-radius: 1000px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+.img-perfil img:hover {
+    transform: scale(2);
+}
+/*SECCION DE TARJETAS DE PRESENTACION*/
+/*SECCION TERMINADA*/
+
+.contenedor-ubicacion {
+    background: url(../img/fondos/ubicacion.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+}
+.anuncio-ubicacion {
+    margin-top: 30px;
+    padding: 30px;
+    color: #fff;
+}
+.animate-u {
+    animation-name: animacion-u;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+@keyframes animacion-u {
+    from {
+        transform: scale(1.03);
+    }
+}
+/*ANUNCIO DE UBICACION*/
+/*SECCION TERMINADA*/
+
+.contenedor-galeria {
+    margin-top: 40px;
+    position: relative;
+    display: block;
+}
+.galeria-g {
+    border: none;
+    margin-bottom: 20px;
+    transition: 0.3s linear;
+}
+.galeria-g:hover img {
+    transform: scale(1.18);
+}
+.galeria-g img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    transition: 0.3s linear;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,0.6);
+}
+@media screen and (max-width: 570px) {
+    .galeria-g img {
+        width: 50%;
+        padding: 10px;
+    }
+}
+.btn-galeria {
+    background: #10CD24;
+    text-align: center;
+    margin: 30px auto;
+    width: 30%;
+    border-radius: 10px;
+    transition: 0.3s linear;
+}
+.btn-galeria a {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn-galeria:hover {
+    width: 40%;
+}
+@media screen and (max-width: 450px) {
+    .btn-galeria {
+        width: 50%;
+    }
+    .btn-galeria:hover {
+        width: 60%;
+    }
+}
+/*SECCION DE GALERIA DE MUESTRA*/
+/*SECCION TERMINADA*/
+
+.contenedor-formulario {
+    background: url(../img/fondos/fondo-2.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 60px;
+    display: block;
+    position: relative;
+}
+.formulario-instrucciones {
+    color: #fff;
+    display: block;
+    padding: 20px;
+    margin-top: 50px;
+}
+.formulario-instrucciones h2 {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.formulario-instrucciones p {
+    font-family: 'Roboto';
+}
+.formulario-cotizaciones {
+    padding: 20px;
+    color: #fff;
+    display: block;
+    margin-top: 50px;
+}
+.formulario-cotizaciones h2 {
+    font-family: 'Roboto Slab';
+    text-align: center;
+    margin-bottom: 25px;
+}
+.formulario-cotizaciones input {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    color: #000;
+}
+.formulario-cotizaciones select {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+.contenedor-file {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+.contenedor-comentario {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.contenedor-comentario textarea {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Roboto';
+}
+.contenedor-botn-cotizacion {
+    display: block;
+    position: relative;
+    text-align: left;
+}
+.contenedor-botn-cotizacion button {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    padding: 10px;
+    background: red;
+    color: #fff;
+    transition: 0.3s linear;
+    margin-bottom: 30px;
+}
+.contenedor-botn-cotizacion button:hover {
+    width: 30%;
+}
+/*SECCION DEL FORMULARIO*/
+/*SECCION TERMINADA*/
+
+.contenedor-opiniones {
+    margin-top: 50px;
+    position: relative;
+    display: block;
+}
+.targe-cliente {
+    background: #F0EFEC;
+    border-radius: 10px;
+    padding: 20px;
+    height: 90%;
+    display: block;
+    margin: 20px auto;
+}
+.contenedor-foto-user img {
+    width: 24%;
+    border-radius: 1000px;
+    margin-right: 10px;
+    transition: 0.3s linear;
+}
+.contenedor-foto-user img:hover {
+    transform: scale(1.5);
+}
+@media screen and (max-width: 760px) {
+    .contenedor-foto-user img {
+        width: 13%;
+    }
+}
+.contenedor-foto-user a {
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+.contenedor-comentario {
+    display: block;
+    margin-top: 20px;
+}
+.contenedor-comentario p {
+    text-align: left;
+    font-family: 'Roboto';
+}
+.contenedor-estrellas {
+    text-align: justify;
+}
+.contenedor-estrellas a {
+    margin-right: 5px;
+    cursor: text;
+    transition: 0.3s linear;
+}
+.contenedor-estrellas i {
+    color: #E1C814;
+    animation-name: estrellas;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    position: relative;
+    transition: 0.3s linear;
+    cursor: text;
+}
+@keyframes estrellas {
+    from {
+        transform: rotate(250deg);
+    }
+}
+/*SECCION DE COMENTARIOS*/
+/*SECCION TERMINADA*/
+
+footer {
+    width: 100%;
+    display: block;
+    position: relative;
+    background: #F0EFED;
+    margin-top: 30px;
+}
+.contenedor-assoc {
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.contenedor-assoc h1 {
+    font-family: 'Roboto Slab';
+}
+.contenedor-assoc p {
+    font-family: 'Truculenta';
+    font-size: 23px;
+}
+.contenedor-redes {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.contenedor-redes a {
+    background: #B112E3;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 30px;
+    padding: 12px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.contenedor-redes i {
+    border-radius: 5px;
+    padding: 7px;
+}
+@media screen and (max-width: 365px) {
+    .contenedor-redes a {
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
